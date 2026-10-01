@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Busca a chave que está dentro do .env
 API_KEY = os.getenv("REST_COUNTRIES_API_KEY")
 
 BASE_URL = "https://api.restcountries.com/countries/v5"
